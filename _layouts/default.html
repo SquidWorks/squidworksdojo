@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
 
     <meta charset="utf-8">
@@ -28,10 +27,10 @@
     <![endif]-->
 
 </head>
-
 <body>
 
-    <!-- Navigation -->
+<div class="site">
+  <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 
         <div class="container">
@@ -80,22 +79,19 @@
                                 <a href="community.html"><b>Community Home</b></a>
                             </li>
 							<li>
-                                <a href="#">DON'T CLICK, NONE GO ANYWHERE, YET</a>
-                            </li>
-							<li>
-                                <a href="forum.html">Forum</a>
+                                <a href="https://hackforums.net/">Forum</a>
                             </li>
                             <li>
-                                <a href="irc.html">IRC</a>
+                                <a href="http://site.anonnet.org/webirc/">IRC</a>
                             </li>
                             <li>
-                                <a href="socialFeed.html">Social Feed</a>
+                                <a href="https://twitter.com/squidworks">Social Media</a>
                             </li>
                             <li>
                                 <a href="calendar.html">Calendar</a>
                             </li>
                             <li>
-                                <a href="socialMedia.html">Social Media</a>
+                                <a href="conference.html">Conference</a>
                             </li>
                         </ul>
                     </li>
@@ -109,25 +105,28 @@
                                 <a href="#">DON'T CLICK, NONE GO ANYWHERE, YET</a>
                             </li>
 							<li>
-                                <a href="forum.html">Our Team</a>
+                                <a href="https://ctftime.org/team/10285">Our Team</a>
                             </li>
 							<li>
-                                <a href="socialMedia.html">CTFd</a>
+                                <a href="https://ctfd.io/">CTFd</a>
                             </li>
                             <li>
-                                <a href="irc.html">Cyber Range</a>
+                                <a href="https://www.merit.edu/cyberrange/">Cyber Range</a>
                             </li>
                             <li>
-                                <a href="socialFeed.html">Hackathon</a>
+                                <a href="hackathon.html">Hackathon</a>
                             </li>
                             <li>
-                                <a href="calendar.html">Paper Contests</a>
+                                <a href="papers.html">Paper Contests</a>
                             </li>
                             
                         </ul>
                     </li>
 					<li>
-                        <a href="sponsors.html">Sponsors</a>
+                        <a href="sponsors.html">Our Sponsors</a>
+                    </li>
+					<li>
+                        <a href="partners.html">Our Partners</a>
                     </li>
 					<li>
                         <a href="help.html">How to Help</a>
@@ -162,88 +161,57 @@
         </div>
         <!-- /.container -->
     </nav>
-		    <!-- Page Content -->
-    <div class="container">
+  {{ content }}
 
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">About
-                    <small>Squid Works</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">About</li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Intro Content -->
-        <div class="row">
-            
-            <div class="col-md-6">
-                <h2>About Squid Works</h2>
-                <p>I created this site because while teaching yourself how to be a hacker is hard, teaching yourself how to be a hacker the right way is even harder. </p>
-                <p>Squid Works is the child of a decade of attempting to find resources online to expand my knowledge. There is no lack of resources, but rather, there is a lack of flow, a lack of coherent frameworks and training plans. And while going a rambling on the internet works for some people, it doesn't work for most of us. I instantly gravitated towards Hack Forums and Hack This Site. Plenty of others did as well, but significantly more simply quit because they thought they didn't know enough and could never learn all the material out there. </p>
-                <p>The simple fact of the matter is that noone can even approach knowing a fraction of what there is to know about this domain, however, this site aims to give students the tools required to navigate anything thrown at them. By repeatedly stressing that students are not expected to show up being elite hackers, or to leave as elite hackers, this site attempts to fill the gap between "I want to cyber" and "I cyber".</p>
-				<p>All we hope to do here is to provide guidance for the first 6 months of your journey into cyberspace, after that, we hope to have given you the tools, techniques, and hacker mentality required to address any problem that comes your way. </p>
-            </div>
-			<div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-            </div>
-        </div>
-        <!-- /.row -->
-		<!-- Team Members -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Our Mission</h2>
-				<p>To create the best damn site on the internet for aspiring cyber security professionals to learn and grow while mastering the fundamentals of the field, along with growing a community alongside the training material to provide a central location for cyber education. </p>
-            </div>
-            
-        </div>
-        <!-- Team Members -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Our Guiding Philosophy</h2>
-				<p>Community first, building out relationships and soft skills will always come before technical know how. The community we build is the lifeblood of the site, the content creators, course writers, mentors, and most importantly the students.  </p>
-            </div>
-            
-        </div>
-        <!-- /.row -->
-		
-		<div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Our Training Philosophy</h2>
-				<p>Cyber is hard, cyber is fun. People show up thinking they don't know anything. People freak out and realize they knew less than they thought they did. People leave. We don't like that. Don't leave. </p>
-            </div>
-            
-        </div>
-
-       
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </footer>
-
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Tom Preston-Werner
+        <br />
+        Cofounder of
+          <a href="https://codestarter.org/">Codestarter</a>,
+          <a href="https://github.com/">GitHub</a>
+        <br />
+        tom@mojombo.com
+      </p>
     </div>
-    <!-- /.container -->
+    <div class="contact">
+      <p>
+        <a href="http://github.com/mojombo/">github.com/mojombo</a><br />
+        <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
+      </p>
+    </div>
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tom-preston-werner">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- 
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
+</script>
+ -->
+
+<!-- Google Analytics 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6016902-1");
+pageTracker._trackPageview();
+</script>
+ -->
 
 </body>
-
 </html>
