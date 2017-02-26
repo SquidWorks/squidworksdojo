@@ -1,6 +1,8 @@
 #myFooter {
     background-color: #3a3f46;
     color: white;
+    margin: 0;
+    padding: 0px;
 }
 
 #myFooter .row {
