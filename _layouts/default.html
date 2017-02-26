@@ -52,7 +52,18 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="about.html"><b>About</b></a>
+                            </li>
+							<li>
+                                <a href="research.html">Research</a>
+                            </li>
+                            <li>
+                                <a href="guidelines.html">Community Guidelines</a>
+                            </li>            
+                        </ul>
                     </li>
 					<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training <b class="caret"></b></a>
@@ -66,9 +77,9 @@
                             <li>
                                 <a href="resources.html">Resources</a>
                             </li>
-                            <!--<li>
-                                <a href="wiki.html">Team Wiki</a>
-                            </li> -->
+                            <li>
+                                <a href="https://wikipedia.org">Squid Works Wiki</a>
+                            </li>
                             
                         </ul>
                     </li>
@@ -82,6 +93,9 @@
                                 <a href="https://hackforums.net/">Forum</a>
                             </li>
                             <li>
+                                <a href="https://usnacst.slack.com/messages/general">Slack</a>
+                            </li>
+							<li>
                                 <a href="http://site.anonnet.org/webirc/">IRC</a>
                             </li>
                             <li>
@@ -163,15 +177,51 @@
     </nav>
   {{ content }}
 
-  <div class="footer">
-    <p>
-        Devey
-    </p>   
-  </div>
+  <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="help.html">How to Help</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>What We Do</h5>
+                    <ul>
+                        <li><a href="training.html">Training</a></li>
+                        <li><a href="community.hmtl">Community</a></li>
+                        <li><a href="competition.html">Competition</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Other</h5>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="sponsors.html">Our Sponsors</a></li>
+                        <li><a href="partners.html">Our Partners</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 info">
+                    <h5>Information</h5>
+                    <p> Hit Us Up Homies. </p>
+                </div>
+            </div>
+        </div>
+        <div class="second-bar">
+           <div class="container">
+                <h2 class="logo"><a href="http://clipart-library.com/image_gallery/136851.jpg" width="60"> SQUIDWORKS </a></h2>
+                <div class="social-icons">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
-
-<a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-
 <!-- 
 <div id="ClickTaleDiv" style="display: none;"></div>
 <script type="text/javascript">
