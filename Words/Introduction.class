@@ -1,3 +1,7 @@
+	
+	
+	
+	
 	Hacker Mentality
 		Lessons from Grace Hopper
 			“It's easier to ask forgiveness than it is to get permission.”
@@ -83,195 +87,235 @@
 		Red Team
 			What is a red team
 			https://en.wikipedia.org/wiki/Red_team
-			Resources:
+				Resources:
+				
+			Red Team Mentality
 
-	Killchain
-	Recon
-	Weaponization
-	Delivery
-	Exploitation
-	AoE
+			Red Team Killchain
+				Recon
+				Weaponization
+				Delivery
+				Exploitation
+					AoE
 
-	Installation
-	C2
-	Actions on Target
-	Jobs
-	Pen Tester
-	Physical Penetration Tester
-	Infrastructure Dude 
-	“Shell Sherpa”
-	Exploit Dev
+				Installation
+				C2
+				Actions on Target
+		
+			Red Team Jobs
+				Pen Tester
+				Physical Penetration Tester
+				Infrastructure Dude 
+				“Shell Sherpa”
+				Exploit Dev
 
-	Blue Team
-	Killchain 
-	https://nigesecurityguy.files.wordpress.com/2014/01/defensible-actions-matrix-2.jpg
-	Anti-Recon
-	Hardening
-	Physical
-	Soft
-	Detection
-	IDS
-	Anti-Virus
-	C2 Detection
-	Hunt
-	Remediation
-	Removal
-	Reversing
-	Forensics
-	Media Forensics
-	Network Forensics
-	After Action Report
-	Jobs
-	Secure Development
-	Security Engineer
-	Auditing and Compliance
-	Threat Analyst
-	Security Analyst
-	Incident Response
-	Malware Analyst
-	Forensic Analyst
-	Governance and Policy
-	Lawyers
+		Blue Team
+			What is blue team?
+			
+			Blue Team Mentality
+		
+			Blue Team Killchain 
+				https://nigesecurityguy.files.wordpress.com/2014/01/defensible-actions-matrix-2.jpg
+	
+	
+				Anti-Recon
+					Physical
+					Architectural 
+					Software
+				Hardening
+					Physical
+					Architectural
+					Software
+					
+				Detection
+					IDS
+					Anti-Virus
+					C2 Detection
+					Hunt
+				Remediation
+					Removal
+					Reversing
+				Forensics
+					Intro to Forensics
+					Media Forensics
+					Network Forensics
+				After Action Report
+			Blue Team Jobs
+				Secure Development
+				Security Engineer
+				Auditing and Compliance
+				Threat Analyst
+				Security Analyst
+				Incident Response
+				Malware Analyst
+				Forensic Analyst
+				Governance and Policy
+				Lawyers
 
 
 	Building a Lab
-	Building your own “Lab” is important for a lot of reasons, but most importantly it is fun and teaches you a bunch of valuable information. In this section we will do some work securing our daily lives and install a virtual machine for us to work on. What you will be making is uniquely yours and will be something that you will work on and refine for the rest of your career. 
+		Building your own “Lab” is important for a lot of reasons, but most importantly it is fun and teaches you a bunch of valuable information. In this section we will do some work securing our daily lives and install a virtual machine for us to work on. What you will be making is uniquely yours and will be something that you will work on and refine for the rest of your career. 
 
-	Passwords
-	Passwords are hard, and losing your primary email can pretty much stop your life as you attempt to regain control. Luckily, there is a lot you can do to keep yourself from becoming the low hanging fruit. After this section, not only will you be able to protect yourself, but you’ll be able to share this with others.
-	Theory
-	http://www.passwordanalytics.com/theory/passwords/
-	Read Passwords 101 and submit one example each of the three ways you authenticate yourself.
-	Read Good Passwords 101 and submit a description of what makes a good password
-	Read Strength 101 and submit a description of what makes a strong password
-	Read Pass-Phrase and describe how pass phrases balance being a good password and a strong password.
-	Read Cracking and explain which technique an attacker would use to attack a password that they knew to be 6 random alpha numeric characters
-	Read Cracking and explain which technique an attacker would use to attack a password that they knew to be three random words added together.
-	Why They Matter
-	Here is a brief experiment for you to try. Try to make a rough guess how many web sites you use on a regular basis use your primary email as their account recovery address. Now, try to think about which of those sites are the most important to you that they remain secure; social media, banking, other email accounts. Now think of the sketchy sites you reuse the same password on. If those sites are breached, and the attacker gets your password, they can use it to take your other accounts. Now, work through the _____ Risk Assesment Steps to determine the level of risk that you assume by reusing your password. 
-	Password manager
-	All is not lost however, luckily you do not have to memorize hundreds of high entropy passwords or carry them around in a locked diary. Password managers provide the ability to generate and store secure passwords across devices, all controlled by a single master password. This means you only need to know one password, and the rest can be pseudo-randomly generated. 
-	Read this! https://www.howtogeek.com/141500/why-you-should-use-a-password-manager-and-how-to-get-started/
-	Submit a 2-3 sentence statement trying to convince my grandma to use a password manager.
-	Install LastPass
-	https://lastpass.com/
-	Complete the LastPass Security challenge
-	Security Questions
-	What is your mother’s maiden name? First dog? Elementary school? All of those things are fairly easy to find online, or just from casual conversation. If someone is trying to steal an account, that will always be the easiest route. Security questions are hard to avoid, but there are easy ways to harden yourself and protect your accounts.
-	Read this
-	https://www.wired.com/2016/09/time-kill-security-questions-answer-lies/
-	Submit what the article recommends you do
-	Luckily, there is a better way. Instead of forcing you to lie, we are going to introduce you to the ideas of hashing and salting.
-	Encoding/Encrypting/Hashing
-	https://danielmiessler.com/study/encoding-encryption-hashing-obfuscation/
-	Explain the differences between encoding, encryption, and hashing.
-	Explain the importance of only using https://
-	Salting
-	https://thomashunter.name/blog/password-encryption-hashing-salting-explained/
-	In 2-3 sentences, explain what salting does and why it is important.
-	Combining the ideas of salting and hashing, now learn how you are going to make secure security questions! If we take a hashing algorithm, like MD5, and a unique salt, such as “salty”, we can use the function MD5(_answer_to_question_ + “salty”). This will create an impossible to guess security question that you can easily use anywhere. 
+		Passwords
+			Passwords are hard, and losing your primary email can pretty much stop your life as you attempt to regain control. Luckily, there is a lot you can do to keep yourself from becoming the low hanging fruit. After this section, not only will you be able to protect yourself, but you’ll be able to share this with others.
+			- Read this
+				http://www.passwordanalytics.com/theory/passwords/
+				Read Passwords 101 and submit one example each of the three ways you authenticate yourself.
+				Read Good Passwords 101 and submit a description of what makes a good password
+				Read Strength 101 and submit a description of what makes a strong password
+				Read Pass-Phrase and describe how pass phrases balance being a good password and a strong password.
+				Read Cracking and explain which technique an attacker would use to attack a password that they knew to be 6 random alpha numeric characters
+				Read Cracking and explain which technique an attacker would use to attack a password that they knew to be three random words added together.
+			Why They Matter
+				Here is a brief experiment for you to try. Try to make a rough guess how many web sites you use on a regular basis use your primary email as their account recovery address. Now, try to think about which of those sites are the most important to you that they remain secure; social media, banking, other email accounts. Now think of the sketchy sites you reuse the same password on. If those sites are breached, and the attacker gets your password, they can use it to take your other accounts.
+				- Now, work through the _____ Risk Assessment Steps to determine the level of risk that you assume by reusing your password. 
+				
+				
+			Password Manager
+				All is not lost however, luckily you do not have to memorize hundreds of high entropy passwords or carry them around in a locked diary. Password managers provide the ability to generate and store secure passwords across devices, all controlled by a single master password. This means you only need to know one password, and the rest can be pseudo-randomly generated. 
+				- Read this! 
+					https://www.howtogeek.com/141500/why-you-should-use-a-password-manager-and-how-to-get-started/
+					Submit a 2-3 sentence statement trying to convince my grandma to use a password manager.
+	
+				- Install LastPass
+					https://lastpass.com/
+					Complete the LastPass Security challenge
+	
+			Security Questions
+				What is your mother’s maiden name? First dog? Elementary school? All of those things are fairly easy to find online, or just from casual conversation. If someone is trying to steal an account, that will always be the easiest route. Security questions are hard to avoid, but there are easy ways to harden yourself and protect your accounts.
+				- Read this
+					https://www.wired.com/2016/09/time-kill-security-questions-answer-lies/
+					Submit what the article recommends you do
+				Luckily, there is a better way. Instead of forcing you to lie, we are going to introduce you to the ideas of hashing and salting.
+				
+				Encoding/Encrypting/Hashing
+					- Read This
+						https://danielmiessler.com/study/encoding-encryption-hashing-obfuscation/
+						Explain the differences between encoding, encryption, and hashing.
+						Explain the importance of only using https://
+						Salting
+					- https://thomashunter.name/blog/password-encryption-hashing-salting-explained/
+						In 2-3 sentences, explain what salting does and why it is important.
+	
+					Combining the ideas of salting and hashing, now learn how you are going to make secure security questions! If we take a hashing algorithm, like MD5, and a unique salt, such as “salty”, we can use the function MD5(_answer_to_question_ + “salty17”). This will create an impossible to guess security question that you can easily use anywhere. 
 
-	Tracking
-	A famous quote about the internet is “If a service is free, the product is you”. Silicon Valley is built on advertising money, and they make their money targeting advertisements. The more targeted, the more money they can charge. 
-	Read how it works:
-	https://www.newfangled.com/if-they-are-watching-should-you-watch-too/
-	Describe one potential abuse of tracking and one benefit of tracking in 2-3 sentences. 
-	Ad-Blocking
-	https://lifehacker.com/5649025/why-you-should-use-adblock-plus-even-if-you-dont-block-ads
-	https://chrome.google.com/webstore/detail/ublock-origin/
-	Dark Side https://arstechnica.com/business/2010/03/why-ad-blocking-is-devastating-to-the-sites-you-love/
-	Disconnect and Ghostery
-	https://www.ghostery.com/
-	https://disconnect.me/
+		Tracking
+			A famous quote about the internet is “If a service is free, the product is you”. Silicon Valley is built on advertising money, and they make their money targeting advertisements. The more targeted, the more money they can charge. 
+			- Read how it works:
+				https://www.newfangled.com/if-they-are-watching-should-you-watch-too/
+				Describe one potential abuse of tracking and one benefit of tracking in 2-3 sentences. 
+			Ad-Blocking
+				https://lifehacker.com/5649025/why-you-should-use-adblock-plus-even-if-you-dont-block-ads
+				https://chrome.google.com/webstore/detail/ublock-origin/
+				Dark Side https://arstechnica.com/business/2010/03/why-ad-blocking-is-devastating-to-the-sites-you-love/
+				Disconnect and Ghostery
+					https://www.ghostery.com/
+					https://disconnect.me/
 
-	Anti-Virus
-	How do you get them
-	How to stop them
-	EMET, Windows Defender
-	https://www.howtogeek.com/190590/quickly-secure-your-computer-with-microsofts-enhanced-mitigation-experience-toolkit-emet/
-	https://www.microsoft.com/en-us/safety/pc-security/windows-defender.aspx
+		Anti-Virus
+			How do you get them
+			How to stop them
+			EMET, Windows Defender
+				https://www.howtogeek.com/190590/quickly-secure-your-computer-with-microsofts-enhanced-mitigation-experience-toolkit-emet/
+				https://www.microsoft.com/en-us/safety/pc-security/windows-defender.aspx
 
-	Anti-Virus
+			Anti-Virus
+				MalwareBytes
+				
+			Recovering From Malware
+				______ YOU SHOULD KNOW HOW TO DO THIS _____ 
 
 	Virtualization 
-	Why virtualization
-	https://www.infoq.com/articles/virtualization-intro
-	Install VMWare
-	http://www.vmware.com/go/tryplayerpro-win-64
-	Install Ubuntu
-	https://youtu.be/yVpbFMhOAwE
-	http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso
-	Install VMWare Tools
-	https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1022525
+		Why virtualization
+			https://www.infoq.com/articles/virtualization-intro
+		Install VMWare
+			http://www.vmware.com/go/tryplayerpro-win-64
+		Install Ubuntu
+			https://youtu.be/yVpbFMhOAwE
+			http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso
+		Install VMWare Tools
+			https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1022525
+	
+	
 	Ubuntu Intro
-	Intro to Linux
-	https://linuxjourney.com
-	Getting Started
-	Command Line
-	Text Fu
-	User Management
-	Permissions
-	Packages
-	Scavenger Hunt
-	Submit Screenshot of File Hash
-	Permissions
-	Sudo
-	Package Manager
-	Sudo apt-get update
-	Sudo apt-get upgrade
-	Sudo apt-get install _____
+		Intro to Linux
+			https://linuxjourney.com
+			Getting Started
+			Command Line
+			Text Fu
+			User Management
+			Permissions
+			Packages
+		Scavenger Hunt
+			Submit Screenshot of File Hash
+			Permissions
+			Sudo
+			Package Manager
+			Sudo apt-get update
+			Sudo apt-get upgrade
+			Sudo apt-get install tmux
+			Sudo apt-get install python
 
 
 	How Computer
-	Magic (Abstraction)
-	Hardware
-	Operating Systems
-	Networking
-	Networks
-	Internet
-	Levels of the internet
-	https://danielmiessler.com/study/internet-deep-dark-web
-	Security
-	Encoding/Encrypting/Hashing
-	https://danielmiessler.com/study/encoding-encryption-hashing-obfuscation/
-	Crypto
-	https://danielmiessler.com/study/diffiehellman/
+		Magic (Abstraction)
+		Hardware
+		Operating Systems
+		Networking
+		Networks
+		Internet
+			Levels of the internet
+				https://danielmiessler.com/study/internet-deep-dark-web
+		Security
+			Encoding/Encrypting/Hashing
+				https://danielmiessler.com/study/encoding-encryption-hashing-obfuscation/
+			Crypto
+				https://danielmiessler.com/study/diffiehellman/
+				
+			Certificates
+			
+			
+
+	Scripting
+		Command Line
+			Code Academy Command Line
+
+
+	Programming Languages
+		Introduction to Programming Languages
+			https://en.wikiversity.org/wiki/Introduction_to_Programming/About_Programming
+		Code Academy Python
+			https://www.codecademy.com/learn/python
+		Your First GitHub Project 
+			https://guides.github.com/activities/hello-world/
+		Your First Open Source Project	
+			Add to the members list on our site
+
+
+	Soft Skills
+		Why are soft skills important
+		Intro to business writing
+			https://danielmiessler.com/study/business_writing
+		Write a Blog Post
+		Write a News Article
+		Write a Tutorial
+		Write a Cover Letter
+		Build a Resume
+		Build a Portfolio
+	
+	
 	Carry Around Knowledge
-	Jobs
-	Assessment Types
-	Introduction to OpSec
-	The Grugq
-	http://blogsofwar.com/hacker-opsec-with-the-grugq/
-	https://gist.github.com/grugq/353b6fc9b094d5700c70
-	Recommended:
-	https://www.youtube.com/watch?v=9XaYdCdwiWU
+		Jobs
+		Assessment Types
+			https://danielmiessler.com/study/security-assessment-types/
+		Introduction to OpSec
+			The Grugq
+			http://blogsofwar.com/hacker-opsec-with-the-grugq/
+			https://gist.github.com/grugq/353b6fc9b094d5700c70
+			Recommended:
+			https://www.youtube.com/watch?v=9XaYdCdwiWU
 
 	Scavenger Hunt
 
 
-	https://danielmiessler.com/study/security-assessment-types/
-	Scripting
-	Command Line
-	Code Academy Command Line
-
-
-	Programming Languages
-	Introduction to Programming Languages
-	https://en.wikiversity.org/wiki/Introduction_to_Programming/About_Programming
-	Code Academy Python
-	Your First GitHub Project 
-	https://guides.github.com/activities/hello-world/
-	Your First Open Source Project	
-	Add to the members list on our site
-
-
-	Soft Skills
-	Why are soft skills important
-	Intro to business writing
-	https://danielmiessler.com/study/business_writing
-	Write a Blog Post
-	Write a News Article
-	Write a Tutorial
-	Write a Cover Letter
-	Build a Resume
-	Build a Portfolio
+	
