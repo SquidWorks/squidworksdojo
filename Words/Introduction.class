@@ -1,0 +1,277 @@
+	Hacker Mentality
+		Lessons from Grace Hopper
+			“It's easier to ask forgiveness than it is to get permission.”
+			This quote comes from an interview in the July 1986 CHIP’s Ahoy Magazine, the Department of the Navy’s Information Technology Magazine. She was at the cutting edge then and it is a testament to her vision how well this interview stands up to the test of time. Her passion for knowledge and innovation is the most important thing you can carry with you.
+			- Read This
+				http://www.doncio.navy.mil/chips/ArticleDetails.aspx?id=3563
+				Write two or three sentences on what “It's easier to ask forgiveness than it is to get permission.” means to you as a member of the Navy. 
+			- Read this
+				http://www.biography.com/people/grace-hopper-21406809
+				Google what a compiler is and write two or three sentences on why that was so important for the advancement of computing.
+		What is “hacking”?
+			The etymology of the word “hack” is very complicated, and anywhere you go you will find some slight disagreements. This is the most concise article you can find on the subject.
+			- Read “A Short History of Hack”
+				http://www.newyorker.com/tech/elements/a-short-history-of-hack
+				Write your own definition for “hack” in two sentences.
+			Defining the word “hacker” is difficult for all of the reasons previously mentioned, luckily this site decided to use 8 in order to hit them all. Catb is the online repository of the Jargon File, a comprehensive compendium of hacker slang illuminating many aspects of hackish tradition, folklore, and humor. Anytime you see a piece of slang you don’t know, Catb will have the widely agreed upon definition.
+			- Definitions of “Hacker”
+				http://www.catb.org/~esr/jargon/html/H/hacker.html
+				In 2-3 sentences, summarize what you think the hacker mentality is meant to be
+		Hacker How To
+			From the same person who maintains the Jargon File comes this “Hacker How-To”. It isn’t perfect, but it is good enough for now.
+			-  Read This 
+				http://www.catb.org/~esr/faqs/hacker-howto.html
+				Write 4-6 sentences on your interpretation of the last sentence in part one of the Hacker Attitude, “(You also have to develop a kind of faith in your own learning capacity — a belief that even though you may not know all of what you need to solve a problem, if you tackle just a piece of it and learn from that, you'll learn enough to solve the next piece — and so on, until you're done.)”
+		How to Ask Questions
+			There are nearly infinite resources out there, and it is rare that you wind up doing something no one has ever done before. If you wind up there, congratulations. Before that you have google and the people here to ask questions. We will always try to help in any way that we can. One of the worst things about hacker culture is this idea that someone should “Read the Man-Pages” or “RTFM”. Man-pages are the manuals that accompany various programs and functions on the Unix operating system, and they are a resource for people who have spent years learning how to understand them. Right now, you don’t have the knowledge to be expected to understand how they work, and that is fine. There is no pressure to know anything, but there is pressure to learn. 
+			- Read this comic: Xkcd is a nerd cultural treasure and you will see it referenced constantly. Remember, you don’t have to get them all, when you are not sure, there is http://www.explainxkcd.com. For this, read this comic, and hover your mouse over it to get the alt-text. Submit what the alt-text tells you to do. 
+				https://xkcd.com/1692/
+			- Visit this man-page and write down the first five things you don’t understand. Then google them and figure out what they are. Submit 5 sentences explaining the 5 things you didn’t know. For the love of everything, don’t read any further once you are done with that. Remember Rule 3 of the Hacker Attitude, “Boredom and Drudgery are evil.”
+				https://linux.die.net/man/1/bash
+
+	Intro. To the Community
+		History
+			
+			https://en.wikipedia.org/wiki/Timeline_of_computer_security_hacker_history
+
+		Hacker Culture and You
+			http://phrack.org/issues/7/3.html
+			http://catb.org/jargon/html/introduction.html
+			https://people.eecs.berkeley.edu/~bh/hacker.html
+			https://www.theatlantic.com/technology/archive/2010/09/the-anthropology-of-hackers/63308/
+
+	Introduction to Our Community
+		Community Guidelines
+			Read our community guidelines, and submit the pdf agreement saying you will abide by them. You will probably never see this agreement again, but if you engage in any activity that violates our community rules, someone will send you it back to you as a gentle reminder. Our principles are fairly simple, and underpin the basis of our site. 
+		Slack
+			In the beginning there was ___, then ______, then IRC. Finally, there was Slack. Instant group messaging has been a cultural staple of the internet community since its inception, as it is truly one of the most important functions that global interconnectedness can serve. 
+			- Visit freenode IRC: IRC or Internet Relay Chat has served as the de facto messaging service and is still the favorite among old school purists. It is characterized by its lack of login information and the temporal nature of it’s posts due to only seeing posts that occur after you join a channel. 
+				https://webchat.freenode.net/
+				Screenshot of your post
+			- Join our slack channel: Slack has become the IRC replacement, allowing group collaboration and real time chat along with logs and file hosting integration. We use it for many of our conversations, and as our primary instant messaging channels.
+				Screenshot of join
+		Forums
+			Forums hold a special place in the heart of many hackers, as massive repositories of knowledge and centers of community. We have our own forum that we use for tutorials, long form discussion, and questions.
+			- Let us know you are joining the community, make a “Hello, World!” post on our forum so that people can come and greet you! 
+				Screenshot of hello world post
+		Mentor
+			Find yourself a mentor
+			Mentors are essential, so find yourself a mentor in the hello world post. Message them independently with PMs or via Slack, or maybe they will reach out to you! They will help you with any problems you run into and help guide you towards success.
+		Partner
+			Find yourself a partner
+			Everything is more fun when you have someone to do it with. You will be assigned someone as your partner by your mentor, and you will work with them as you move forward in this process.
+		Twitter
+			Unsurprisingly, information security Twitter is a very exciting place. In the modern age, where information flows at the speed of light, Twitter is the place to be if you want to stay informed and on the cutting edge. It is a firehose of information, so you want to start off following only a few accounts. This list has been curated to only include must follows with a range of jobs that will provide insight into what is happening around the web.
+			- Create a twitter, follow list
+		GitHub
+			A major part of hacker culture is the idea of open source technology. GitHub is the modern center of the open source community, providing free hosting for _____ projects. In fact, you might have noticed this site is hosted by GitHub! A great deal of hacker cred is based around the things you create and release to the public, and the best way to do that is on GitHub. 
+			- Create an account
+				https://github.com/
+			GitHub Student is an incredible offer that gives college students a starter pack of basically everything they could ever need to get started with any aspect of computing, from text editors to cloud hosting and more. If you have a .edu account, apply for this incredible gift pack.
+			- Get Github Student if You Can
+				https://education.github.com/pack
+
+	Theory
+		Risk
+			Difference between Threats, Vulnerabilities and Risk
+			https://danielmiessler.com/study/threats-vulnerabilities-risks
+			Threats
+			https://msdn.microsoft.com/en-us/library/ff648641.aspx
+			Funny Stuff
+			https://www.usenix.org/system/files/1401_08-12_mickens.pdf
+
+		Red Team
+			What is a red team
+			https://en.wikipedia.org/wiki/Red_team
+			Resources:
+
+	Killchain
+	Recon
+	Weaponization
+	Delivery
+	Exploitation
+	AoE
+
+	Installation
+	C2
+	Actions on Target
+	Jobs
+	Pen Tester
+	Physical Penetration Tester
+	Infrastructure Dude 
+	“Shell Sherpa”
+	Exploit Dev
+
+	Blue Team
+	Killchain 
+	https://nigesecurityguy.files.wordpress.com/2014/01/defensible-actions-matrix-2.jpg
+	Anti-Recon
+	Hardening
+	Physical
+	Soft
+	Detection
+	IDS
+	Anti-Virus
+	C2 Detection
+	Hunt
+	Remediation
+	Removal
+	Reversing
+	Forensics
+	Media Forensics
+	Network Forensics
+	After Action Report
+	Jobs
+	Secure Development
+	Security Engineer
+	Auditing and Compliance
+	Threat Analyst
+	Security Analyst
+	Incident Response
+	Malware Analyst
+	Forensic Analyst
+	Governance and Policy
+	Lawyers
+
+
+	Building a Lab
+	Building your own “Lab” is important for a lot of reasons, but most importantly it is fun and teaches you a bunch of valuable information. In this section we will do some work securing our daily lives and install a virtual machine for us to work on. What you will be making is uniquely yours and will be something that you will work on and refine for the rest of your career. 
+
+	Passwords
+	Passwords are hard, and losing your primary email can pretty much stop your life as you attempt to regain control. Luckily, there is a lot you can do to keep yourself from becoming the low hanging fruit. After this section, not only will you be able to protect yourself, but you’ll be able to share this with others.
+	Theory
+	http://www.passwordanalytics.com/theory/passwords/
+	Read Passwords 101 and submit one example each of the three ways you authenticate yourself.
+	Read Good Passwords 101 and submit a description of what makes a good password
+	Read Strength 101 and submit a description of what makes a strong password
+	Read Pass-Phrase and describe how pass phrases balance being a good password and a strong password.
+	Read Cracking and explain which technique an attacker would use to attack a password that they knew to be 6 random alpha numeric characters
+	Read Cracking and explain which technique an attacker would use to attack a password that they knew to be three random words added together.
+	Why They Matter
+	Here is a brief experiment for you to try. Try to make a rough guess how many web sites you use on a regular basis use your primary email as their account recovery address. Now, try to think about which of those sites are the most important to you that they remain secure; social media, banking, other email accounts. Now think of the sketchy sites you reuse the same password on. If those sites are breached, and the attacker gets your password, they can use it to take your other accounts. Now, work through the _____ Risk Assesment Steps to determine the level of risk that you assume by reusing your password. 
+	Password manager
+	All is not lost however, luckily you do not have to memorize hundreds of high entropy passwords or carry them around in a locked diary. Password managers provide the ability to generate and store secure passwords across devices, all controlled by a single master password. This means you only need to know one password, and the rest can be pseudo-randomly generated. 
+	Read this! https://www.howtogeek.com/141500/why-you-should-use-a-password-manager-and-how-to-get-started/
+	Submit a 2-3 sentence statement trying to convince my grandma to use a password manager.
+	Install LastPass
+	https://lastpass.com/
+	Complete the LastPass Security challenge
+	Security Questions
+	What is your mother’s maiden name? First dog? Elementary school? All of those things are fairly easy to find online, or just from casual conversation. If someone is trying to steal an account, that will always be the easiest route. Security questions are hard to avoid, but there are easy ways to harden yourself and protect your accounts.
+	Read this
+	https://www.wired.com/2016/09/time-kill-security-questions-answer-lies/
+	Submit what the article recommends you do
+	Luckily, there is a better way. Instead of forcing you to lie, we are going to introduce you to the ideas of hashing and salting.
+	Encoding/Encrypting/Hashing
+	https://danielmiessler.com/study/encoding-encryption-hashing-obfuscation/
+	Explain the differences between encoding, encryption, and hashing.
+	Explain the importance of only using https://
+	Salting
+	https://thomashunter.name/blog/password-encryption-hashing-salting-explained/
+	In 2-3 sentences, explain what salting does and why it is important.
+	Combining the ideas of salting and hashing, now learn how you are going to make secure security questions! If we take a hashing algorithm, like MD5, and a unique salt, such as “salty”, we can use the function MD5(_answer_to_question_ + “salty”). This will create an impossible to guess security question that you can easily use anywhere. 
+
+	Tracking
+	A famous quote about the internet is “If a service is free, the product is you”. Silicon Valley is built on advertising money, and they make their money targeting advertisements. The more targeted, the more money they can charge. 
+	Read how it works:
+	https://www.newfangled.com/if-they-are-watching-should-you-watch-too/
+	Describe one potential abuse of tracking and one benefit of tracking in 2-3 sentences. 
+	Ad-Blocking
+	https://lifehacker.com/5649025/why-you-should-use-adblock-plus-even-if-you-dont-block-ads
+	https://chrome.google.com/webstore/detail/ublock-origin/
+	Dark Side https://arstechnica.com/business/2010/03/why-ad-blocking-is-devastating-to-the-sites-you-love/
+	Disconnect and Ghostery
+	https://www.ghostery.com/
+	https://disconnect.me/
+
+	Anti-Virus
+	How do you get them
+	How to stop them
+	EMET, Windows Defender
+	https://www.howtogeek.com/190590/quickly-secure-your-computer-with-microsofts-enhanced-mitigation-experience-toolkit-emet/
+	https://www.microsoft.com/en-us/safety/pc-security/windows-defender.aspx
+
+	Anti-Virus
+
+	Virtualization 
+	Why virtualization
+	https://www.infoq.com/articles/virtualization-intro
+	Install VMWare
+	http://www.vmware.com/go/tryplayerpro-win-64
+	Install Ubuntu
+	https://youtu.be/yVpbFMhOAwE
+	http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso
+	Install VMWare Tools
+	https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1022525
+	Ubuntu Intro
+	Intro to Linux
+	https://linuxjourney.com
+	Getting Started
+	Command Line
+	Text Fu
+	User Management
+	Permissions
+	Packages
+	Scavenger Hunt
+	Submit Screenshot of File Hash
+	Permissions
+	Sudo
+	Package Manager
+	Sudo apt-get update
+	Sudo apt-get upgrade
+	Sudo apt-get install _____
+
+
+	How Computer
+	Magic (Abstraction)
+	Hardware
+	Operating Systems
+	Networking
+	Networks
+	Internet
+	Levels of the internet
+	https://danielmiessler.com/study/internet-deep-dark-web
+	Security
+	Encoding/Encrypting/Hashing
+	https://danielmiessler.com/study/encoding-encryption-hashing-obfuscation/
+	Crypto
+	https://danielmiessler.com/study/diffiehellman/
+	Carry Around Knowledge
+	Jobs
+	Assessment Types
+	Introduction to OpSec
+	The Grugq
+	http://blogsofwar.com/hacker-opsec-with-the-grugq/
+	https://gist.github.com/grugq/353b6fc9b094d5700c70
+	Recommended:
+	https://www.youtube.com/watch?v=9XaYdCdwiWU
+
+	Scavenger Hunt
+
+
+	https://danielmiessler.com/study/security-assessment-types/
+	Scripting
+	Command Line
+	Code Academy Command Line
+
+
+	Programming Languages
+	Introduction to Programming Languages
+	https://en.wikiversity.org/wiki/Introduction_to_Programming/About_Programming
+	Code Academy Python
+	Your First GitHub Project 
+	https://guides.github.com/activities/hello-world/
+	Your First Open Source Project	
+	Add to the members list on our site
+
+
+	Soft Skills
+	Why are soft skills important
+	Intro to business writing
+	https://danielmiessler.com/study/business_writing
+	Write a Blog Post
+	Write a News Article
+	Write a Tutorial
+	Write a Cover Letter
+	Build a Resume
+	Build a Portfolio
